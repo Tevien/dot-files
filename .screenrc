@@ -1,0 +1,8 @@
+shell bash
+
+escape ^Gg
+
+defscrollback 10000
+
+#hardstatus alwayslastline 
+#hardstatus string '%{= kG}%{= kw}%?%-Lw%?%{r}(%{W}%n*%f%t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}'
